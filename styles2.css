@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(63, 73, 78);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:height 1.6em; 
+    font-size: 25px;
+
+}
+
+.salmon
+{color: salmon;}
+
+.black
+{color: black;}
+
+h1{
+    color: salmon; }
+
+    @media (min-width:600px) {
+        body { 
+            background-color: brown;
+            color: burlywood;
+            font-size: 10px;
+            line-height: 2;
+        }
+    }
+    
+    @media (min-width:600px) {
+       .salmon {
+            color: burlywood;
+        }
+    }
+    
+    @media (min-width:600px) {
+        .horizontal {
+            background-color: brown;
+        }
+    }
